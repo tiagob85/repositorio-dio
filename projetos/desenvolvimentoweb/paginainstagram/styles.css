@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-container{
+    display: flex;    
+    align-items: center;/*Alinha todos os componentes no centro.*/
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-foto{
+    display: flex;
+    width: 40%;    
+    align-items: center;
+    justify-content: center;    
+}
+
+.instagram-foto img{
+    height: 50rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.instragram-profile-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.instagram-login{
+    display: flex;    
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    min-height: 32rem;
+    margin-top: 4rem;
+}
+
+.instagram-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.8rem 0.2rem;
+    width: 100%;    
+    background: #fff;
+    border: 1px solid lightgray;
+    margin-bottom: 0.5rem;
+}
+
+.instagram-continue{
+    background: rgb(38, 102, 221);
+    font-size: 14px;
+    padding: 0.3rem;
+    border-radius: 5px;
+    /*margin: 0.2rem;*/
+    color: white;
+    margin: 0.5rem;
+}
+
+.instagram-remove{
+    margin-top: 0.8rem;
+    color: rgb(38, 102, 221);
+    font-size: 13px;
+}
+
+.instagram-download{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.3rem 0;
+    background: transparent;
+}
+
+.instagram-img-download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.imgdownload{
+    height: 3rem;
+    width: 10rem;
+    padding: 1.3rem;
+    align-items: center;
+    background-size: cover;
+    
+}
+
+.text-download{
+    font-weight: bold;
+}
+
+.link-color{
+    color: #0095f6;
+}
